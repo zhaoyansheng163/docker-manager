@@ -1,0 +1,12 @@
+#参考 https://www.cnblogs.com/longdb/p/10770661.html
+docker build -t longdb-vue:V1.0.0 .
+docker run -p 5006:5006 -d --name longdbvuefe longdb-vue:V1.0.0
+
+
+前端
+docker build -t longdb-vuefe:V1.0.0 .
+docker run -p 80:80 -d --name longdbvuefe longdb-vuefe:V1.0.0
+
+flask
+docker build -t longdb-flask:V1.0.0 .
+docker run -p 5005:5005 -d --name longdbflask longdb-flask:V1.0.0
